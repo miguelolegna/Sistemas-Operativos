@@ -11,3 +11,52 @@ body{
     font-size: 45px;
     text-align: center;
 }
+
+.conteudo-sec{
+    font-size: 20px;
+}
+
+
+.seta-direita{
+    list-style-type: none;
+}
+
+.seta-direita li::before{
+    content: "\2794";
+    margin-right: 0.5em;
+    font-size: 16px;
+}
+
+
+#conteudo-escondido {
+    display: none;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000000; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    cursor: pointer; /* Adiciona um cursor de ponteiro ao passar o mouse */
+  }
+  
+  /* Adicione um estilo quando o botão estiver sendo pressionado */
+  button:hover {
+    background-color: #2c2c2c;
+  }
+
+  .img-right{
+    border-radius: 5%;
+    float: right;
+    margin-left: 20px;
+}
+  
+  img {
+    float: right; /* Alterado para "right" para posicionar à direita */
+    margin-left: 10px; /* Adiciona um espaço entre a imagem e o texto */
+  }
+  
+
+  
